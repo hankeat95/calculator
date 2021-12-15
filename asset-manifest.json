@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/calculator/static/css/main.e63511eb.chunk.css",
-    "main.js": "/calculator/static/js/main.e6ec11b8.chunk.js",
-    "main.js.map": "/calculator/static/js/main.e6ec11b8.chunk.js.map",
+    "main.js": "/calculator/static/js/main.0b8a6fe4.chunk.js",
+    "main.js.map": "/calculator/static/js/main.0b8a6fe4.chunk.js.map",
     "runtime-main.js": "/calculator/static/js/runtime-main.54841588.js",
     "runtime-main.js.map": "/calculator/static/js/runtime-main.54841588.js.map",
     "static/js/2.0d1decb6.chunk.js": "/calculator/static/js/2.0d1decb6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.54841588.js",
     "static/js/2.0d1decb6.chunk.js",
     "static/css/main.e63511eb.chunk.css",
-    "static/js/main.e6ec11b8.chunk.js"
+    "static/js/main.0b8a6fe4.chunk.js"
   ]
 }
