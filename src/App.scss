@@ -1,0 +1,109 @@
+body {
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    background-color: #22252d;
+    height: 100%;
+}
+
+.App-header {
+    background-color: #22252d;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: 5%;
+
+    span {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+.App-content {
+    background-color: #22252d;
+    height: 95%;
+}
+
+.calculatorContainer {
+    text-align: right;
+    height: 100%;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+.historyText {
+    display: flex;
+    align-content: center;
+    height: 20%;
+    justify-content: flex-end;
+    font-size: 2.5em;
+    align-items: flex-end;
+
+    span {
+        padding-left: 10px;
+    }
+}
+
+.textDisplay {
+    height: 15%;
+    font-size: 4em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.equalSign {
+    background-color: orange !important;
+}
+
+.actionButtons {
+    color: #f47a7a !important;
+}
+
+.secondaryButtons {
+    color: #31eac9 !important;
+}
+
+.operationText{
+    color:#f47a7a;
+}
+
+.buttonsDiv {
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    border-radius: 8%;
+    // border-top-right-radius: 8%;
+    background-color: #292d36;
+    padding: 3%;
+    button {
+        color: white;
+        font-size: 2em;
+        background-color: #272b33;
+        text-align: center;
+        margin: 8px;
+        border-radius: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: transform 0.1s ease-in-out;
+        border: none;
+        cursor: pointer;
+
+        &:last-child {
+            grid-column: 3 / span 2;
+            border-radius: 100px;
+        }
+        &:active {
+            transform: translateY(3px);
+        }
+    }
+}
